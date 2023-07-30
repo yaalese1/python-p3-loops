@@ -51,7 +51,7 @@ while (i < 5) {
 Python has a `while` construct too, which works in much the same way:
 
 ```py
-i = 0
+i = 2
 while i < 5:
   print("Looping!")
   i += 1
@@ -72,7 +72,8 @@ for (let i = 0; i < 10; i++) {
 Python also has a `for` loop (with slightly simpler syntax!):
 
 ```py
-for i in range(10):
+x = [1,2,3,4,5,6,7,8,9,10]
+for i in range(len(x)):
     print("Looping!")
     print(f"i is: {i}")
 ```
